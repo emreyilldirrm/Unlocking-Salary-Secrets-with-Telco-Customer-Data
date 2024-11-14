@@ -9,8 +9,9 @@ In this project, a salary prediction model was developed using the WA_Fn-UseC_-T
 Two algorithms were employed for the salary prediction task:
 - **Linear Regression (LR)**
 - **Logistic Regression (LGBM)**
-- 
-![image](https://github.com/user-attachments/assets/71560d37-f901-4cd0-98fa-c968d84c9de4)
+
+  
+![image](https://github.com/user-attachments/assets/94b76899-8d27-4e9b-93e6-048f044ac49a)
 ![image](https://github.com/user-attachments/assets/70e73f07-c0b2-4a9a-a9e8-c884534d254d)
 
 The model development process involved several key steps:
