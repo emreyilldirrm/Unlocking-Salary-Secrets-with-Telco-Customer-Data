@@ -11,7 +11,8 @@ Two algorithms were employed for the salary prediction task:
 - **Logistic Regression (LGBM)**
 
   
-![image](https://github.com/user-attachments/assets/94b76899-8d27-4e9b-93e6-048f044ac49a)
+![image](https://github.com/user-attachments/assets/c4241719-7814-4684-b6d6-ff53a640ad4d)
+
 ![image](https://github.com/user-attachments/assets/70e73f07-c0b2-4a9a-a9e8-c884534d254d)
 
 The model development process involved several key steps:
