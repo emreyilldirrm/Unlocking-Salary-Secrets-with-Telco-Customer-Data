@@ -17,30 +17,36 @@ Two algorithms were employed for the salary prediction task:
 The model development process involved several key steps:
 
 1. **Model Training (with Null Values)**: Initially, both models were trained without removing null (missing) values to observe the effect of missing data on model performance.
-   - **LR Base Error**
-   - **LGBM Base Error**
+   - **LR Base **
+   - **LGBM Base **
 
 2. **Handling Missing Values**: After removing null values, the models were retrained to assess the impact of null removal on performance.
    - **LR Error After Feature Engineering**
    - **LGBM Error After Feature Engineering**
 
 3. **Hyperparameter Optimization**: Both models were fine-tuned by adjusting their hyperparameters, and the errors were recorded.
-   - **LGBM Final Model Error**
-   - **LGBM Null Model Error**
+   - **LGBM Final Model **
+   - **LGBM Null Model **
 
 4. **Model Evaluation**: RMSE (Root Mean Squared Error) was calculated at each stage, and the model with the lowest RMSE value was applied to the project.
 
 ## Conclusion
 
-![image](https://github.com/user-attachments/assets/96e2ee5c-e5cd-4b26-8d5f-a00bab42f932)
+*LR Base (NUll)**
+![image](https://github.com/user-attachments/assets/69a76693-f327-42c2-9a4e-3ce1d6115f01)
 
-![image](https://github.com/user-attachments/assets/384a95f6-caa9-46e7-b1f2-69b77e7901e9)
+**LGBM Base (Nulll)**
+![image](https://github.com/user-attachments/assets/c5d8509d-3b42-4640-976a-829730a939f3)
 
-![image](https://github.com/user-attachments/assets/c72435db-2c33-4cc5-989d-fd1652da285d)
+**LR Error After Feature Engineering**
+![image](https://github.com/user-attachments/assets/3f23365a-1d01-43fe-ae20-50dd23cb384f)
 
-![image](https://github.com/user-attachments/assets/18b0ff04-e0a5-4054-8306-15df6c1a8ea5)
+**LGBM Error After Feature Engineering**
+![image](https://github.com/user-attachments/assets/3bcce0dd-5770-4630-95f0-b42fa8fa3480)
 
-![image](https://github.com/user-attachments/assets/bf50bf65-b820-41af-9214-2a2da8dadb2c)
+**LGBM Final Model **
+**LGBM Null Model **
+![image](https://github.com/user-attachments/assets/ff384928-5d5f-4370-99b2-e0b078f93196)
 
 This project successfully demonstrated how customer data in the telecommunications sector can be used for salary prediction. After feature engineering, handling missing data, and hyperparameter tuning, the model with the lowest RMSE value was applied to the project.
 
